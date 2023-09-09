@@ -1,0 +1,1448 @@
+body{
+    max-width: 1905px;
+    margin:0 auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.content{
+    margin:auto 100px;
+}
+.content > form:nth-child(2) {
+    text-align: center;
+    }
+    .form-horizontal {
+        /* border: 1px solid gray; */
+        border-radius: 20px;
+        padding-top: 80px;
+        margin-top: -50px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        background-color: #f8f9ff;
+        margin-bottom: 40px;
+        /* padding-bottom:80px; */
+      }
+      .form-horizontal > div {
+        width: 92%;
+        align-self: center;
+        justify-self: center;
+      }
+
+      .form-horizontal .form-group >div{
+          max-width:100%;
+      }
+     .form-horizontal label {
+        max-width:100%;
+      }
+      .form-group > div:last-child {
+        display: flex;
+        justify-content: center;
+      }
+      
+.container.login .form-group a.btn {
+    position: absolute;
+    right: 0px;
+    background-color: transparent;
+    color: #000000c7;
+    border: 1px solid hsl(0, 0%, 89.4%);
+    border-bottom: none;
+    font-size: 17px;
+    padding: 12px 60px;
+
+  }
+
+  .container.login .form-group a.btn:hover{
+    background-color: #e7e9f5 !important;
+  }
+  
+  .container.login .form-group:last-child {
+    width: 90%;
+  }
+  
+      
+.container.register a.btn {
+    font-size: 16px;
+    padding: 13px 30px;
+    background-color: transparent;
+    color: #000000c7;
+    border: 1px solid hsl(0, 0%, 89.4%);
+    cursor:pointer;
+  }
+  
+  .container.signup a.btn:hover {
+    background-color: #e7e9f5 !important;
+  }
+  
+  .container.register a.btn {
+    position: absolute;
+    left: 15px;
+  }
+.form-group:last-child {
+    margin-bottom: 0px;
+    margin-top: 25px;
+  }
+      .container.signup .btn {
+        background-color: hsl(218, 42%, 44%);
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 60px;
+        cursor:pointer;
+      }
+      
+      .container.signup .btn:hover{
+        background-color: hsla(217.7, 42%, 43.9%, 0.8)!important;
+
+      }
+.form-control {
+    border: none;
+    border-bottom: 2px solid #00000014;
+  }
+  
+
+
+.form-group > div:last-child {
+    align-items: flex-end;
+  }
+  
+/* index.php */
+.card-box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.card-box.home{
+    margin-top:60px;
+}
+
+.types{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.types-box-outer{
+    margin-bottom:20px;
+}
+
+.types-box a{
+    color:#333;
+    font-size:16px;
+}
+
+.types-box{
+    display: inline-block;
+    margin-bottom:20px;
+    margin-right:15px;
+    padding-left:2px;
+    border-radius: 3px;
+}
+
+.types-box.Κορμού{
+    border-left:6px solid  #3d4480;
+}
+
+.types-box.Ε3{
+    border-left:6px solid  #a72323;
+}
+
+.types-box.Ε4{
+    border-left:6px solid  #dbb824;
+}
+
+.types-box.Ε5{
+    border-left:6px solid #3d8041;
+}
+
+.types-box.Ε6{
+    border-left:6px solid  rgb(116, 61, 128);
+}
+
+.types-box.Ε7{
+    border-left:6px solid  #804e3d;
+}
+
+.mydiv{
+    border-left:6px solid red;
+    display:inline-block;
+}
+
+
+
+.card{
+    background-color:rgba(215, 215, 215, 0.101);
+    padding: 20px 10px 0 10px;
+    border: 0;
+    -webkit-box-shadow: 7px 7px 16px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 16px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 16px -10px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.card-body{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.card-box.home .card-body{
+    text-align:center;
+    align-items: center;
+}
+
+.card-box.home .card-title{
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #d9d9d9;
+  padding-bottom: 15px;
+}
+
+.btn-primary:hover {
+    color: #393939;
+    background-color: hsla(217.3, 51.7%, 82.9%, 0.35) !important;
+    border-color: hsl(218, 42%, 44%);
+  }
+  
+  .btn-primary {
+    background-color: hsl(218, 42%, 44%) !important;
+  }
+
+.card-lessons{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-lessons .card{
+    width:312px !important;
+    height:250px;
+}
+
+.card-lessons .card-button{
+   margin-bottom:20px;
+   align-self:center;
+}
+
+.card-lessons .card-body{
+    justify-content:flex-start;
+}
+.card-lessons .card-body-1 h5{
+    padding:20px;
+    padding-top:15px;
+    padding-bottom:0;
+    text-align:center;
+}
+.card-lessons .card-body-1{
+    padding-bottom:0;
+    margin-bottom:0;
+    height:80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-lessons .card-body-2 .card-text{
+    margin-bottom:5px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-lessons.card-files .card {
+    height: 280px;
+  }
+
+.card-lessons.card-files .card-body-2{
+    height:170px;
+    justify-content:space-between;
+}
+
+.card-lessons.card-files .card-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card-lessons.card-files .card-body-1 {
+    min-height: 100px;
+    border-bottom:0;
+}
+
+.card-lessons .card-text a{
+    background-color: #4e514f17;
+    color: #192a81;
+    padding:5px;
+    border-radius:5px;
+}
+
+.card-lessons .card-text a:hover{
+    text-decoration: none;
+    background-color: #4e514f2b !important;
+    color:#091138 !important
+}
+
+p.card-text.for-semester a {
+  margin-left: 4px;
+}
+
+p.card-text.for-year a {
+  margin-left: 30px;
+}
+
+.card-lessons.card-files h5.card-title{
+    min-height:50% !important;
+    padding:0 !important;
+    margin:0 !important;
+}
+
+.card-lessons.card-files h5.card-title a{
+    background-color: #ffffff21;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.card-lessons.card-files h6.card-title{
+    min-height: 50px !important;
+    text-align: center;
+    margin-bottom:0;
+}
+
+.card-lessons .card-body-1{
+    border-bottom: 1px solid #0000001c;
+    padding:0;
+    background-color: #3d8041;  /*green gia ta programmatismou*/
+    border-radius: 20px 20px 0 0;
+}
+
+.card-title a{
+    color:white;
+}
+
+.card-title a:hover{
+    color:#ffffffc7;
+    text-decoration:none;
+}
+
+.card-lessons .card{
+    padding:0;
+    margin-bottom: 50px;
+}
+
+.card-lessons .card-body-2{
+    height:170px;
+    justify-content:flex-start;
+}
+
+
+/* lesson.php */
+.tasks{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+.task{
+    width: 29%;
+    border-radius:20px;
+    -webkit-box-shadow: 7px 7px 16px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 16px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 16px -10px rgba(0,0,0,0.75);
+    height: 260px;
+    margin-bottom:50px;
+}
+
+.task:hover{
+    transform: scale(1.02);
+}
+
+.task-header{
+    padding:10px;
+    padding-left:15px;
+    border-radius:20px 20px 0 0;
+    background-color: #312d2d;
+    color: #EDEDEDC7;
+    height:50px;
+    font-size:20px;
+}
+
+.task-header:hover {
+    background-color: #2e2e2f;
+}
+
+.task-body{
+    padding:10px;
+    background-color: #f8f9ff !important;
+    border-radius: 0 0 0px 0px;
+    height: 165px;
+    display:flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.task-body h4, .task-body h6, .task-header h4{
+    text-align: center;
+    width: 100%;
+}
+
+#lessons, #myfiles{
+    border-radius:5px 5px 20px 20px;
+}
+
+#login-name {
+    margin: 0 10px;
+    padding-bottom: 5px;
+    color: rgba(0, 0, 0, 0.77);
+  }
+
+.div-log-out{
+    height:53px;
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float:right;
+    border-bottom:3px solid transparent;
+    margin-right: 100px;
+}
+
+.div-log-out span{
+    padding-top: 5px;
+}
+
+.div-log-out a{
+    color:rgba(0,0,0,.5);
+}
+
+.div-log-out:hover{
+    background-color: hsla(217.3, 51.7%, 82.9%, 0.35);
+    border-bottom: 3px solid hsl(218, 42%, 44%);
+
+}
+
+.div-log-out:hover a{
+  color:rgba(0,0,0,.9);
+}
+
+.div-log-out a:hover{
+    color:rgba(0,0,0,.7);
+    text-decoration:none;
+}
+
+#image-logout{
+    width:30px;
+    height:30px;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        display:block !important;
+    }
+}
+
+.bg-light {
+    background-color: #f8f9ff!important;
+}
+
+.header-img{
+    width:30px;
+    height:30px;
+    margin-left:15px;
+}
+
+#navbarNavDropdown {
+    border-bottom: 1px solid #00000021;
+    }
+.nav-item{
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 3px solid transparent;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav-item.active{
+    border-bottom: 3px solid hsl(218, 42%, 44%);
+}
+
+.nav-item.active .nav-link:hover{
+    color:rgba(0,0,0,.7);
+}
+
+.nav-item:hover{
+    background-color: hsla(217.3, 51.7%, 82.9%, 0.35);
+    border-bottom: 3px solid hsl(218, 42%, 44%);
+}
+
+.nav-item:hover .nav-link{
+    color:rgba(0,0,0,.9);
+
+}
+
+.nav-link{
+    margin-right:10px;
+    padding-right:0px;
+}
+
+nav.navbar.bg-light{
+    padding: 0px 0px 0px 0px;
+    margin-bottom:25px;
+}
+
+.collapse.navbar-collapse{
+    display:flex!important;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    margin-left: 100px;
+  }
+
+.navbar-nav .nav-link {
+    padding:0px 10px!important;
+  
+}
+
+.menu-left{
+    float:left;
+}
+
+.table-dark{
+    -webkit-box-shadow: 7px 7px 16px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 16px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 16px -10px rgba(0,0,0,0.75);
+}
+
+.table-dark, .table-dark a{
+    color:#5c5c5c;
+}
+
+.table-dark a:hover{
+    color:#5c5c5cb0;
+    text-decoration:none;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(even){
+    background-color: #fafafa;
+}
+
+
+.table-dark.table-striped tbody tr:nth-of-type(odd){
+    background-color: #f8db62f7;
+}
+
+.files-section{
+    width:100%;
+}
+
+.files-section .content-up, .files-section .content-down{
+    display:flex;
+    justify-content: space-between;
+}
+
+.files-section .content-up{
+    margin-bottom:5px;
+}
+
+.file-button{
+    background-color: #4e514f17;
+    color: #192a81;
+    padding: 5px 10px;
+    border-radius: 5px;
+    float: left;
+}
+
+.file-button:hover{
+    text-decoration: none;
+    background-color: #4e514f2b !important;
+    color:#091138 !important
+}
+
+.files-section .download-button{
+    float:right;
+}
+
+.card-lessons .card-text .download-button, .card-text .download-button{
+    background-color:#2c8653;
+    padding:5px 10px;
+    border-radius:5px;
+    color:white;
+    width: 120px;
+    text-align: center;
+}
+
+.card-lessons .card-text .download-button:hover, .card-text .download-button:hover{
+    background-color:#2c8653cb!important;
+    color:white!important;
+    text-decoration:none;
+}
+
+.card-lessons .card-text .upload-button, .card-text .upload-button{
+    background-color:#86392c;
+    padding:5px 10px;
+    border-radius:5px;
+    color:white;
+    width: 120px;
+    text-align: center;
+}
+
+.card-lessons .card-text .upload-button:hover, .card-text .upload-button:hover{
+    background-color:#86392ccc;
+    color:white;
+    text-decoration:none;
+}
+
+#input-enroll{
+    background-color: hsl(218.1, 38.2%, 26.7%) !important;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    width: 150px;
+    text-align: center;
+    border: 1px solid hsl(218.1, 38.2%, 26.7%);
+    font-size:20px;
+}
+
+#input-enroll:hover{
+    background-color: hsla(218.1, 38.2%, 26.7%, 0.88) !important;
+    color:white;
+    text-decoration:none;
+}
+
+.undo-enroll{
+  width: 250px!important;
+
+}
+
+.undo-form{
+  text-align:center;
+  margin-bottom:50px;
+}
+
+#lesson-title{
+    text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 a{
+    color:#5c5c5c;
+    text-decoration:none;
+}
+
+h2 a:hover{
+    color:#5c5c5cb0;
+    text-decoration:none;
+}
+
+.filters{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters h2{
+    margin-right:30px;
+}
+
+.filters .btn-group,.filters .btn-group .btn{
+    padding:5px;
+}
+
+.filters .btn-group .btn{
+    background-color: #dfe4ff;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #97979780;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.error {
+    padding-left: 15px;
+  }
+  
+  .error p {
+    color: #d40505;
+  }
+  
+.calendar-container{
+    margin:0;
+}
+
+.calendar-container h3{
+    text-align:center;
+    margin:20px auto;
+}
+
+#calendar {
+   border:none;
+}
+
+#calendar.table-bordered thead th{
+    border-bottom:none;
+    border-left:1px solid #dee2e6;
+    text-align:center;
+}
+
+#calendar tbody tr td{
+    width:14.2%;
+    font-size:18px;
+}
+
+#calendar tbody tr:nth-child(1) td{
+    border-top: 3px solid #3b6c8d;
+}
+
+#calendar tbody{
+   color:#515151;
+}    
+
+#calendar tbody tr td a{
+    font-size:12px;
+}
+
+#calendar .today{
+    background-color: #d0cfff;
+}
+
+#calendar thead{
+  color: #3b6c8d;
+  font-size:18px;
+  color: #73848f;
+}
+
+#calendar .assignment-link{
+    color:#ffd024;
+}
+
+#calendar .assignment-link:hover{
+    color:#ffd024bf !important;
+    text-decoration:none;
+}
+
+#calendar .lesson-link{
+    color:#ffffffba;
+}
+
+#calendar .lesson-link:hover{
+    color:#ffffff8f !important;
+    text-decoration:none;
+}
+
+.ask{
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3b6c8d;
+}
+
+.ask:hover{
+    background-color:#3b6c8dee;
+}
+
+.cal-title{
+    display: flex;
+    justify-content: center;
+}
+
+.cal-title h3{
+    color:#515151;
+}
+
+.arrows{
+    text-align: center;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    width: 35%;
+}  
+
+.arrows .arrow{
+    width: 10%;
+    padding: 5px 0px;
+    border-radius: 10px;
+    border: 2px solid #04040408;
+    padding-top: 3px;
+}
+
+.arrows .arrow img{
+    height:14px;
+}
+
+.arrows .arrow:hover{
+    background-color: #f7f9fa;
+    color:#ffffffda;
+}
+
+.arrows > h3 {
+    font-size: 24px;
+  }
+  
+  #calendar tbody tr td {
+    font-size: 14px;
+  }
+  
+  #calendar.table-bordered thead th {
+    font-size: 14px;
+  }
+
+#curr_filter{
+    font-size: 17px;
+    margin-left: 25px;
+}
+
+#lesson-title {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px 0px;
+    color: #3f3f44;
+  border-bottom: 2px solid #d0d0d0;
+
+  }
+
+  .deadline{
+    background-color: #f8f9ff !important;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    align-items: flex-end;
+     margin:0;
+  }
+
+  .deadline p {
+    margin: 0;
+    padding: 6px 10px;
+    border-radius: 15px 15px 0 0;
+    background-color: #312d2d;
+    color: #EDEDEDC7;
+  }
+
+.task.task-upload {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  .task-upload .task-body {
+    align-items: center;
+  }
+
+  .task-upload .content-up {
+    justify-content: center;
+  }
+
+  .upload-input{
+      background-color:transparent;
+      border:none;
+      color:white;
+  }
+
+  #file-form{
+      display:flex;
+      justify-content: center;
+  }
+
+  #file-form label{
+    margin: 0;
+    margin-right: 5px;
+  }
+
+  .task-upload form{
+      width:100%;
+  }
+
+  .file-btn{
+    background-color: #4e514f00;
+    padding: 0 5px;
+  }
+
+  .file-btn:hover{
+    background-color:#4e514f08 !important;
+  }
+  .filters .dropdown-menu.show {
+    top: 39px !important;
+    left: 4px !important;
+    transform:initial!important;
+  }
+  .filters .dropdown-menu.show .dropdown-item:hover {
+    background-color: #dfe4ff;
+  }
+
+  .task-header {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .task {
+    height: 290px;
+  }
+  
+  .task-header h4 {
+    cursor: default;
+    margin-bottom: 0px;
+  }
+  
+.task-header h4 {
+    overflow: hidden;
+    max-height: 100%!important;
+    min-height: 31px!important;
+    font-size:23px;
+  }
+  
+.ham-menu{
+    display:none;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+}
+
+  .ham-menu > img{
+    width: 25px;
+    height: 25px;
+  }
+
+  #reg-title h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  #reg-title {
+    background-color: hsl(218, 42%, 44%);
+    height: 60px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+    z-index: 9999;
+  }
+  .container.signup {
+    margin-top: 30px;
+  }
+  table { border-collapse: separate;
+border-spacing:0px; }
+td { border: solid 1px #000; }
+thead th:first-child  { border-top-left-radius: 10px; }
+thead th:last-child  { border-top-right-radius: 10px; }
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+
+.form-horizontal.nfound {
+  height: 50vh;
+  align-items: center;
+  justify-content: space-around;
+padding-bottom: 80px;
+}
+.form-horizontal.nfound .btn.btn-default {
+  width: 50%;
+  }
+
+  .search-form {
+    width: 30%;
+    float: right;
+  }
+  
+  .search-form .justify-content-center {
+    justify-content: flex-end !important;
+  }
+
+  /**********************
+        Media Queries 
+   **********************/
+@media (max-width: 1200px){
+    .content{
+        margin: auto 50px;
+    }
+
+    .card{
+        width:18rem!important;
+    }
+
+    .task{
+        width:25rem!important;
+    }
+    
+    #lesson-title{
+        font-size:29px;
+    }
+
+   
+
+.navbar-nav {
+    margin-left: 50px;
+  }
+  
+  .div-log-out {
+    margin-right: 50px;
+  }
+  
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .filters h2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .filters .btn-group {
+    height: 50%;
+    align-self: center;
+  }
+  
+  #curr_filter {
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  
+}
+
+@media (max-width: 980px){
+    .ham-menu{
+        display:block;
+    }
+    .div-log-out{
+        height:0px;
+    }
+
+    .responsive .div-log-out{
+        height:49px;
+    }
+    .navbar-nav.menu-left, .div-log-out span:nth-child(2){
+        display:none;
+    }
+
+    .responsive {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px 0px 20px 30px;
+        margin-left: 0px;
+        background-color: #f1f3ff !important;
+        z-index: 1;
+      }
+
+      .responsive .navbar-nav.menu-left, .responsive .div-log-out span:nth-child(2){
+          display:block;
+      }
+
+      .navbar-nav {
+        margin: 0px;
+      }
+      .responsive .navbar-nav.menu-left, .responsive .div-log-out span:nth-child(2){
+        display: flex;
+        flex-direction: column;
+      }
+      .responsive .div-log-out span:nth-child(2){
+        margin: 0;
+        margin-left: 15px;
+        margin-top: 15px;
+      }
+
+     .responsive .nav-item {
+        padding: 14px 0px 14px 0px;
+      }
+      
+      #login-name {
+          display:initial;
+        top: 0px;
+        position: absolute;
+        right: 35px;
+     }
+
+   .card-box.home {
+        flex-direction: column!important;
+    }
+    
+    div.card-box.home .card, .task{
+        width: 100%!important;
+        margin:0 auto!important;
+        margin-bottom:50px!important;
+        -webkit-box-shadow:none!important;
+        -moz-box-shadow: none!important;;
+        box-shadow: none!important;
+    }
+
+    .card-img, .card-img-bottom, .card-img-top {
+        width: 30%;
+        align-self: center;
+    }
+    #lesson-title{
+        font-size:27px;
+        padding: 7px 15px;
+    }
+    .task-header h4 {
+        font-size:22px;
+    }
+    .task-header {
+        height: 50px;
+      }
+      
+      .task {
+        height: 260px;
+      }
+
+      .arrows {
+        width: 70%;
+        }
+        .container.signup{
+            max-width:860px;
+        }
+  
+}
+
+@media (max-width: 740px){
+
+    .content {
+    margin: auto 10px;
+    }
+    
+    .card-body {
+    padding: .75rem;
+    }
+
+    .card-lessons .card, .task {
+        width: 80% !important;
+      }
+      
+      .card-lessons, .tasks {
+        justify-content: center;
+        margin: 0 auto;
+      }
+      
+      .card-lessons .card-body-2 {
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .card-lessons .card-body-2 .card-text{
+        text-align: center;
+      }
+
+      .filters {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 60px;
+      }
+      
+      .filters h2 {
+        align-self: center;
+        margin-bottom: 20px;
+        margin-right: 0px;
+      }
+      
+      .types {
+        width: 80%;
+        margin: 20px auto 5px auto;
+      }
+
+      .filters {
+        margin: 0px;
+        align-items: center;
+        }
+        
+        .filters .btn-group {
+          width: 83%;
+        }
+        
+        .btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+          width: 70%;
+          text-align: left;
+          padding-left: 15px;
+        }
+        
+      div.btn-group:nth-child(3) {
+        order: 2;
+        }
+
+        #lesson-title{
+            width:95%;
+        }
+        .arrows > h3 {
+            font-size: 24px;
+            }
+
+            .container.register  #reg-title > h2 {
+                font-size: 24px;
+              }
+              
+              .container.register .btn {
+                font-size: 18px;
+              }
+
+            .container.login .form-group a.btn {
+                position: relative;
+              }
+              
+              .container.login .form-group > div:last-child {
+                justify-content: space-between;
+              }
+
+
+              .form-group > div:last-child {
+                flex-direction: column;
+              }
+              
+              .container.register a.btn {
+                position: relative;
+                left: 0px;
+                order: 2;
+                font-size: 14px;
+              }
+              
+              .form-group > div:last-child {
+                align-items: initial;
+              }
+              
+  
+}
+
+@media (max-width: 560px){
+
+    .content {
+    margin: auto 10px;
+    }
+    
+    .card-body {
+    padding: .75rem;
+    }
+
+      #lesson-title{
+        font-size:22px;
+        padding: 7px 0px;
+    }
+
+    .task-header h4{
+        font-size:19px;
+        height:25px;
+        max-height:none!important;
+        min-height:0px!important;
+    }
+
+    .content-up a, .content-down a, .deadline p {
+        font-size:14px;
+    }
+    .arrows .arrow {
+        width: 10%;
+        }
+
+ .container.login #reg-title > h2 {
+    font-size: 22px;
+  }
+   .container.login button.btn {
+    font-size: 16px;
+  }
+  
+  .container.login .form-group a.btn {
+    font-size: 14px;
+  }
+  
+  .container.login .form-group label{
+    font-size: 14px;
+  }
+  
+  .container.login .form-group > div:last-child {
+      flex-direction: column;
+  }
+  
+  .container.login .form-group > div:last-child {
+    align-items: inherit;
+  }
+  #calendar tr th, #calendar tr td {
+    font-size: 10px !important;
+    }
+    
+#calendar {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .table td, .table th {
+    padding: 30px 14px;
+    padding-top: 4px;
+  }
+  
+  .ask {
+    padding: 0px;
+  }
+  .ask > a{
+    display:none!important;
+}
+  .ask:hover > a{
+      display:block!important;
+  }
+  
+  .table td, .table th {
+    padding: 3px 3px 30px 3px;
+  }
+
+.arrows > h3{
+    font-size: 18px;
+  }
+  
+  .arrows .arrow {
+    width: 6%!important;
+  }
+  
+  .arrows .arrow {
+    padding-top: 0px;
+  }
+  
+
+#calendar .assignment-link, #calendar .lesson-link  {
+  text-align: center;
+}
+
+#calendar .lesson-link {
+  padding: 4px;
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-form {
+width: 84%;
+order: 1;
+}
+
+.types-box {
+order: 2;
+}
+
+.search-form .justify-content-center {
+justify-content: flex-start !important;
+}
+
+}
+
+@media (max-width: 440px){
+
+      .card-lessons .card, .filters .btn-group, .types {
+        width: 88% !important;
+      }
+      .filters .btn-group {
+        width: 91% !important;
+      }
+      .content {
+        margin: auto 0px;
+      }
+    
+      #lesson-title{
+        font-size:19px;
+    }
+
+    .task-header h4{
+        font-size:17px;
+    }
+
+    .files-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .files-section .content-up, .files-section .content-down {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+      }
+      
+      
+      .content-up a, .content-down a {
+        width: 100% !important;
+        text-align: center;
+      }
+      
+      .responsive li.nav-item{
+          font-size:14px;
+      }
+
+      #logout{
+          font-size:14px;
+      }
+  
+      .arrows .arrow {
+          width: 8%;
+      }
+      .container.login  #reg-title > h2{
+        font-size: 18px;
+        margin-bottom: 0px;
+      }
+      
+      .container.login  div.form-group label {
+        font-size: 14px;
+      }
+      
+      .container.login  button.btn {
+        font-size: 14px;
+      }
+      
+      .container.login .form-group a.btn {
+        font-size: 12px;
+      }
+      .arrows > h3{
+        font-size: 16px;
+      }
+      .arrows .arrow img {
+        height: 11px;
+      }
+      .container.register #reg-title > h2{
+        font-size: 20px;
+      }
+      
+      .container.register div.form-group > label {
+        font-size: 14px;
+      }
+      
+      .container.register .btn{
+        font-size: 16px;
+      }
+      
+      .container.register a.btn {
+        position: relative;
+        left: 0px;
+        order: 2;
+        font-size: 12px;
+      }
+    .task {
+      height: 295px;
+    }
+
+    .task-body {
+      height: 200px;
+    }
+
+    .undo-enroll {
+      width: 190px !important;
+      font-size: 15px;
+    }
+
+    #input-enroll {
+      font-size: 16px;
+    }
+
+    .task-body h6 {
+      font-size: 13px;
+    }
+}
