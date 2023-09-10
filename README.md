@@ -1,5 +1,5 @@
 # assignment-management-and-submission-webapp
-This web application is designed for course enrollment, assignment tracking, and homework submission for universities, as a part of my diploma thesis. 
+This web application is designed for course enrollment, assignment tracking, and homework submission for universities, as a part of my diploma thesis. Due to privacy policy all assignments descriptions have been removed and be replaced by a demo description for everything.
 
 ## Features
 - **Course Enrollment:** Students can easily browse, enroll and unenroll in courses offered by the university.
